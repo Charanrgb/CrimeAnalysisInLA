@@ -1,44 +1,47 @@
+Time Series Forecasting with LSTM
+This project notebook (Project_cleaned.ipynb) focuses on using a Long Short-Term Memory (LSTM) neural network for time series forecasting. It demonstrates how deep learning can be applied to predict sequential data trends using Python and either PyTorch or TensorFlow.
 
-````markdown
-# Time Series Forecasting with LSTM
+Project Highlights
+Data Preprocessing: Involves normalization, generating input sequences, and reshaping data to be compatible with RNN models.
 
-This project notebook (`Project_cleaned.ipynb`) focuses on applying a Long Short-Term Memory (LSTM) neural network for time series forecasting. It demonstrates how deep learning can be used to predict sequential data trends using Python and PyTorch or TensorFlow.
+Model Building: Constructs an LSTM model, defines the training process, and generates predictions.
 
----
+Evaluation: Includes visualizations such as training loss curves and comparisons between actual and predicted values to assess performance.
 
-## 📊 Project Highlights
+Applications: This approach can be adapted to various forecasting tasks, including predicting energy consumption, stock prices, or crime trends.
 
-- **Data Preprocessing**: Normalization, sequence generation, and reshaping for RNN input.
-- **Model Building**: Implementation of LSTM layers, training routines, and prediction loops.
-- **Evaluation**: Loss curve visualization, prediction vs actual plots, and model performance analysis.
-- **Applications**: Can be adapted to forecasting tasks like energy consumption, stock prices, or crime data.
+Tools and Libraries Used
+Python 3
 
----
+pandas, numpy
 
-## 🛠️ Tools & Libraries Used
+matplotlib, seaborn
 
-- Python 3
-- pandas, numpy
-- matplotlib, seaborn
-- PyTorch or TensorFlow (based on the implementation)
-- scikit-learn (for scaling)
+PyTorch or TensorFlow (depending on implementation)
 
----
+scikit-learn (for data scaling and preprocessing)
 
-## 🚀 Getting Started
+Getting Started
+1. Install Required Libraries
+Use the following command to install all necessary dependencies:
 
-### 1. Install Dependencies
+bash
+Copy
+Edit
+pip install pandas numpy matplotlib seaborn scikit-learn torch
+If you're using TensorFlow instead of PyTorch, replace torch with:
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn torch  # or tensorflow
-````
+bash
+Copy
+Edit
+pip install tensorflow
+2. Run the Notebook
+Open the notebook with Jupyter:
 
-### 2. Run Notebook
-
-```bash
+bash
+Copy
+Edit
 jupyter notebook Project_cleaned.ipynb
-```
-
 ---
 
 ## 📈 Output & Insights
