@@ -25,22 +25,12 @@ Getting Started
 1. Install Required Libraries
 Use the following command to install all necessary dependencies:
 
-bash
-Copy
-Edit
 pip install pandas numpy matplotlib seaborn scikit-learn torch
 If you're using TensorFlow instead of PyTorch, replace torch with:
 
-bash
-Copy
-Edit
 pip install tensorflow
 2. Run the Notebook
 Open the notebook with Jupyter:
-
-bash
-Copy
-Edit
 jupyter notebook Project_cleaned.ipynb
 ---
 
